@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: var(--selection);
+}
+
+.footer__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 65%;
+  margin: 0 auto;
+}
+
+.footer__text {
+  text-align: center;
+  margin-top: 26px;
+  margin-bottom: 50px;
+  color: var(--foreground-color);
+}
