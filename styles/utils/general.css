@@ -1,0 +1,10 @@
+body {
+  background-color: var(--background-color);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Heebo", Arial, Helvetica, sans-serif;
+  color: var(--purple);
+}
