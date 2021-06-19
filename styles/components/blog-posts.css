@@ -1,0 +1,47 @@
+.blog-posts {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-posts__card {
+  width: 90%;
+  margin: 0 auto;
+  height: 220px;
+
+  background-color: var(--selection);
+  border-radius: 4px;
+}
+.blog-posts__card-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.blog-posts__card-text-h1 {
+  font-weight: 700;
+  font-size: 22px;
+
+  padding: 15px;
+}
+
+.blog-posts__card-text {
+  font-weight: 400;
+  font-size: 16px;
+
+  margin-left: 12px;
+  margin-bottom: 10px;
+}
+
+.blog-posts__card-text-h2 {
+  font-weight: 400;
+  font-size: 16px;
+
+  text-align: justify;
+  padding: 15px;
+}
+
+.blog-posts__card-text-h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 60px;
+  text-align: center;
+}
